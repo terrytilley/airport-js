@@ -11,6 +11,6 @@ describe('Feature Test:', function(){
 
  it('planes can be instructed to land at an airport', function(){
    plane.land(airport);
-   expect(aiport.planes()).toContain(plane);
+   expect(airport.planes()).toContain(plane);
  });
 });
